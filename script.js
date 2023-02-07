@@ -29,9 +29,9 @@ const questions = [
   {
     question: "Hvor er Marius fra?",
     options: [
-      { text: "Norge", correct: true },
+      { text: "Sverige", correct: false },
       { text: "Jerusalem", correct: false },
-      { text: "Tyrkia", correct: false }
+      { text: "Tyrkia", correct: true }
     ],
     imageUrl: 'https://unsplash.it/400/200',
     altText: 'Beskrivelse av bilde'
