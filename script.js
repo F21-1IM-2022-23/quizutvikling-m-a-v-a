@@ -39,7 +39,7 @@ const questions = [
   {
     question: "[Hva er det andre ordet for kvantum]?",
     options: [
-      { text: "Hvet ikke", correct: true },
+      { text: "Vet ikke", correct: true },
       { text: "Sikkert noe lurt", correct: false },
       { text: "Hypotesius Polatipus", correct: false }
     ],
