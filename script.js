@@ -27,21 +27,23 @@ const questions = [
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "Hvor kommer Marius fra?",
+    question: "Hvor er Marius fra?",
     options: [
-      { text: "Norge", correct: false },
+      { text: "Norge", correct: true },
       { text: "Jerusalem", correct: false },
-      { text: "Tyrkia", correct: correct }
+      { text: "Tyrkia", correct: false }
+      { text: "Azerbajan", correct: false }
+      { text: "Iran", correct: true }
     ],
     imageUrl: 'https://unsplash.it/400/200',
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[Skriv spørsmål 4 her]?",
+    question: "[Hva er det andre ordet for kvantum]?",
     options: [
-      { text: "Alternativ .", correct: true },
-      { text: "Alternativ ..", correct: false },
-      { text: "Alternativ ...", correct: false }
+      { text: "Hvet ikke", correct: true },
+      { text: "Sikkert noe lurt", correct: false },
+      { text: "Hypotesius Polatipus", correct: false }
     ],
     imageUrl: 'https://unsplash.it/400/200',
     altText: 'Beskrivelse av bilde'
