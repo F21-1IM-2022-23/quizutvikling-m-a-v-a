@@ -37,7 +37,7 @@ const questions = [
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[Hva er det andre ordet for kvantum]?",
+    question: "Hva er det andre ordet for kvantum?",
     options: [
       { text: "Vet ikke", correct: true },
       { text: "Sikkert noe lurt", correct: false },
