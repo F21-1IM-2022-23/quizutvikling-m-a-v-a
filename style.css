@@ -26,6 +26,10 @@ header { /* påvirker headeren, som inneholder "Quiz"-teksten */
     place-content: center;
 }
 
+img {
+    width: 300px;
+}
+
 main { /* Plasserer og fordeler inneholdet som ligger i main */
     display: flex;
     flex-direction: column;
