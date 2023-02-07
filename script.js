@@ -31,8 +31,6 @@ const questions = [
     options: [
       { text: "Norge", correct: true },
       { text: "Jerusalem", correct: false },
-      { text: "Tyrkia", correct: false }
-      { text: "Azerbajan", correct: false }
       { text: "Iran", correct: true }
     ],
     imageUrl: 'https://unsplash.it/400/200',
