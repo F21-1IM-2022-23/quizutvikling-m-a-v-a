@@ -7,17 +7,17 @@ const questions = [
     ]
   },
   {
-    question: "[Hvor høy er Victor]?",
+    question: "Hvor høy er Victor?",
     options: [
       { text: "190cm", correct: false }, //"true" = riktig svar. Skriv det inn i ulike linjer for å endre hvilken knapp som er riktig
       { text: "131cm", correct: true }, //Legg til eller fjern så mange svaralternativ som dere ønsker.
-      { text: "167cm", correct: false } //Siste spørsmålslinje skal ikke ha komma.
+      { text: "208cm", correct: false } //Siste spørsmålslinje skal ikke ha komma.
     ],
     imageUrl: 'https://unsplash.it/400/200', //bytt ut med en ny bildeaddresse for hvert spørsmål. 400 og 200 er størrelsen i pixler.
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[Hvor mange land har Anton vært i]?",
+    question: "Hvor mange land har Anton vært i?",
     options: [
       { text: "16", correct: true },
       { text: "34", correct: false },
