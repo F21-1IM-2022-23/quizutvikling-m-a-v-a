@@ -13,7 +13,7 @@ const questions = [
       { text: "131cm", correct: true }, //Legg til eller fjern så mange svaralternativ som dere ønsker.
       { text: "208cm", correct: false } //Siste spørsmålslinje skal ikke ha komma.
     ],
-    imageUrl: 'https://unsplash.it/400/200', //bytt ut med en ny bildeaddresse for hvert spørsmål. 400 og 200 er størrelsen i pixler.
+    imageUrl: URL('1.png'), //bytt ut med en ny bildeaddresse for hvert spørsmål. 400 og 200 er størrelsen i pixler.
     altText: 'Beskrivelse av bilde'
   },
   {
@@ -23,7 +23,7 @@ const questions = [
       { text: "34", correct: false },
       { text: "5", correct: false }
     ],
-    imageUrl: 'https://unsplash.it/400/200',
+    imageUrl: URL('2.png'),
     altText: 'Beskrivelse av bilde'
   },
   {
