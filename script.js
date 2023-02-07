@@ -7,21 +7,21 @@ const questions = [
     ]
   },
   {
-    question: "[Skriv spørsmål 1 her]?",
+    question: "[Hvor høy er Victor]?",
     options: [
-      { text: "Alternativ 1", correct: true }, //"true" = riktig svar. Skriv det inn i ulike linjer for å endre hvilken knapp som er riktig
-      { text: "Alternativ 2", correct: false }, //Legg til eller fjern så mange svaralternativ som dere ønsker.
-      { text: "Alternativ 3", correct: false } //Siste spørsmålslinje skal ikke ha komma.
+      { text: "190cm", correct: false }, //"true" = riktig svar. Skriv det inn i ulike linjer for å endre hvilken knapp som er riktig
+      { text: "131cm", correct: true }, //Legg til eller fjern så mange svaralternativ som dere ønsker.
+      { text: "167cm", correct: false } //Siste spørsmålslinje skal ikke ha komma.
     ],
     imageUrl: 'https://unsplash.it/400/200', //bytt ut med en ny bildeaddresse for hvert spørsmål. 400 og 200 er størrelsen i pixler.
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[Skriv spørsmål 2 her]?",
+    question: "[Hvor mange land har Anton vært i]?",
     options: [
-      { text: "Alternativ I", correct: true },
-      { text: "Alternativ II", correct: false },
-      { text: "Alternativ III", correct: false }
+      { text: "16", correct: true },
+      { text: "34", correct: false },
+      { text: "5", correct: false }
     ],
     imageUrl: 'https://unsplash.it/400/200',
     altText: 'Beskrivelse av bilde'
