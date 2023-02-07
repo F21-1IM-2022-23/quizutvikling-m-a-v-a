@@ -18,7 +18,7 @@ body { /* God praksis som gjør at nettsiden tar opp all tilgjengelig skjermplas
 }
 
 header { /* påvirker headeren, som inneholder "Quiz"-teksten */
-    background-color: lightgray;
+    background-color: rgb(145, 0, 0);
     text-align: center;
     place-content: center;
 }
@@ -34,29 +34,34 @@ main { /* Plasserer og fordeler inneholdet som ligger i main */
 }
 
 footer {
-    background-color: lightgray;
+    background-color: rgb(145, 0, 0);
     padding: 1em;
     text-align: center;
 }
 
 h1 { /* Denne påvirker stilen til overskriften i headeren */
     font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h2 { /* Denne påvirker stilen til Quiz-overskriften "hva kan du om [tema]?" */
     font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h3 { /* Denne påvirker stilen til hvert spørmål */
     font-size: 1.4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h4 { /* Denne påvirker kun teksten i footeren */
     font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 p { /* Påvirker kun startteksten som påvirker beskriver*/
     font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .resultater { /* Alle font relaterte stiler i denne klassen vil påvirke resultat-tallet */
@@ -65,4 +70,10 @@ p { /* Påvirker kun startteksten som påvirker beskriver*/
 
 button { /* påvirker stilen til knappene, det kan være lurt å gi de padding, margin og kanskje noe penere utseende */
     font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(145, 0, 0);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 3rem;
+
 }
