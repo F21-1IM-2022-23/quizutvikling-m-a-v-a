@@ -32,8 +32,6 @@ const questions = [
       { text: "Norge", correct: true },
       { text: "Jerusalem", correct: false },
       { text: "Tyrkia", correct: false }
-      { text: "Azerbajan", correct: false }
-      { text: "Iran", correct: true }
     ],
     imageUrl: 'https://unsplash.it/400/200',
     altText: 'Beskrivelse av bilde'
@@ -41,23 +39,13 @@ const questions = [
   {
     question: "[Hva er det andre ordet for kvantum]?",
     options: [
-      { text: "Hvet ikke", correct: true },
+      { text: "Vet ikke", correct: true },
       { text: "Sikkert noe lurt", correct: false },
       { text: "Hypotesius Polatipus", correct: false }
     ],
     imageUrl: 'https://unsplash.it/400/200',
     altText: 'Beskrivelse av bilde'
-  },
-  {
-    question: "[Skriv spørsmål 5 her]?",
-    options: [
-      { text: "Alternativ -", correct: true },
-      { text: "Alternativ +", correct: false },
-      { text: "Alternativ x", correct: false }
-    ],
-    imageUrl: 'https://unsplash.it/400/200',
-    altText: 'Beskrivelse av bilde'
-  },
+  }
   // Kopier malen over for å legge til flere spørsmål. Husk å endre antall spørsmål øverst.
 ];
 
