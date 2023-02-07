@@ -27,7 +27,7 @@ const questions = [
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[Skriv spørsmål 3 her]?",
+    question: "[Skriv spørsmål hei]?",
     options: [
       { text: "Alternativ A", correct: true },
       { text: "Alternativ B", correct: false },
