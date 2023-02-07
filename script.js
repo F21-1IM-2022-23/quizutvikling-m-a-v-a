@@ -27,11 +27,11 @@ const questions = [
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[Skriv spørsmål hei]?",
+    question: "Hvor kommer Marius fra?",
     options: [
-      { text: "Alternativ A", correct: true },
-      { text: "Alternativ B", correct: false },
-      { text: "Alternativ C", correct: false }
+      { text: "Norge", correct: false },
+      { text: "Jerusalem", correct: false },
+      { text: "Tyrkia", correct: correct }
     ],
     imageUrl: 'https://unsplash.it/400/200',
     altText: 'Beskrivelse av bilde'
